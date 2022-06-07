@@ -27,11 +27,10 @@ export default function App() {
       <StatusBar style="auto" />
       <NavigationContainer>
         <Stack.Navigator>
-          <Stack.Screen name="ManageExpense" component={ManageExpense} />
           <Stack.Screen name="ExpensesOverview" component={ExpensesOverview} />
+          <Stack.Screen name="ManageExpense" component={ManageExpense} />
         </Stack.Navigator>
       </NavigationContainer>
     </>
   );
 }
-
