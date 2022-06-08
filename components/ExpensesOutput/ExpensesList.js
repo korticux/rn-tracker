@@ -6,11 +6,11 @@ function renderExpenseItem(itemData) {
 
 function ExpensesList({ expenses }) {
     return (
-      <Flatlist  
-        data={expenses} 
-        renderItem={renderExpenseItem} 
-        keyExtractor={(item) => item.id}
-       />
+        <Flatlist
+            data={expenses}
+            renderItem={renderExpenseItem}
+            keyExtractor={(item) => item.id}
+        />
     );
 }
 

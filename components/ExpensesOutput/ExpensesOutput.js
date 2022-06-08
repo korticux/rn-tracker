@@ -33,8 +33,8 @@ const DUMMY_EXPENSES = [
 function ExpensesOutput({ expenses, expensesPeriod }) {
     return (
         <View>
-            <ExpensesSummary  expenses={DUMMY_EXPENSES} periodName={expensesPeriod} />
-            <ExpensesList expenses={DUMMY_EXPENSES} />
+            <ExpensesSummary  expenses={DUMMY_EXPENSES} periodName={expensesPeriod}/>
+            <ExpensesList expenses={DUMMY_EXPENSES}/>
         </View>
     );
 }
